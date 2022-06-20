@@ -104,7 +104,7 @@ function printHeader($page){
 	echo <<<ENDEND
 	
 <!DOCTYPE html>
-<!-- izi v1.0 by @aaviator42 -->
+<!-- izi v4.6 by @aaviator42 -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
