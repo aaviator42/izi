@@ -29,6 +29,9 @@ See more screenshots of the interface [here](https://github.com/aaviator42/izi/t
 
 
 ## Installation
+
+Works great on homelabs, shared hosting or VPSs! :P
+
 1. Save `izi.php` on your server. You can rename it if you want (for e.g., to  `index.php`).
 2. Create a directory where your files will be uploaded. Make sure it is publicly accessibly.  
 3. Configure the options at the top of `izi.php`.  To generate the password hash, you can use [hashgen](https://github.com/aaviator42/hashgen).
