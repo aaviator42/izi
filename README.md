@@ -25,6 +25,7 @@ See more screenshots of the interface [here](https://github.com/aaviator42/izi/t
  * Navigable easily without having to take your hand off the keyboard  
  (Hint: If using Firefox, *Quick find* (`'` and `/`) is incredible!)
  * Supports configuring of allowed and disallowed filetypes
+ * Super simple set up - just one file!
 
 
 ## Installation
