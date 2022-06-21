@@ -460,18 +460,6 @@ function logout(){
 	exit(0);
 }
 
-function login(){
-	if(!isset($_POST["u_password"])){
-		$_SESSION["loginFail"] = 1;
-		redirect("login");
-	}
-	if(password_verify($_POST["u_password"], IZI_PASSWORD_HASH)){
-		$_SESSION["active"] = 1;
-		unset($_SESSION["loginFail"]);	
-		redirect("login");
-	}
-}
-
 function iniSettings(){
 	$cookieLifetime = 60*60*24*7; //7 days
 	ini_set( 'session.use_only_cookies', 	true);	// Use only cookies for session IDs
