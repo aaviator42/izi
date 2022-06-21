@@ -4,7 +4,8 @@ izi - v4.7  |  2022-06-20
 by @aaviator42
 */
 
-//BCRYPT hash of password
+//BCRYPT hash of password generated using password_hash()
+//Default is '12345678' - PLEASE CHANGE THIS!!!
 const IZI_PASSWORD_HASH = '$2y$10$o43k01OfwVJaYZ8/rKo4se09BWnlREHBc64rtA9ROLouy.2BBjPlq';
 
 //Folder in which to store uploaded files, include trailing slash
