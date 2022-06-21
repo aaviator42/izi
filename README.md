@@ -1,13 +1,24 @@
 # izi
 Single-script file sharing system in PHP 
 
-Current version: `4.6` | `2022-06-20`  
+Current version: `4.7` | `2022-06-20`  
 License: `AGPLv3`
 
 ## About
 **izi** allows you to very easily set up an interface on your server to easily upload, share and manage files.
 
+
 See screenshots of the interface [here](https://github.com/aaviator42/izi/tree/main/screenshots).
+
+### Features
+ * Allows you to upload and delete files
+ * Allows you to view a list of all files and links to them
+ * Prints simple, valid HTML
+ * Javascript not _required_ for functioning
+ * Navigable easily without having to take your hand off the keyboard  
+ (Hint: If on Firefox, Quick find (`'` and `/`) is incredible!)
+ * Supports configuring of allowed and disallowed filetypes
+
 
 ## Installation
 1. Save `izi.php` on your server. You can rename it if you want (for e.g., to  `index.php`).
@@ -27,4 +38,8 @@ See screenshots of the interface [here](https://github.com/aaviator42/izi/tree/m
  
 ## Misc. Considerations
 1. You might want to enforce TLS through your server's configuration, because the setting in `izi.php` will only enforce it for the interface itself and won't (can't) enforce it for the files you share. 
-2. You also might want to leave an empty `index.html` file in the directory where your files are stored, or disable directory listing.
+2. You also might want to leave an empty `index.html` file in the directory where your files are stored, or disable directory listing so that people and bots can't find all your files
+
+
+------
+Documentation updated: `2022-06-20`
