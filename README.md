@@ -23,14 +23,14 @@ See more screenshots of the interface [here](https://github.com/aaviator42/izi/t
  * Prints simple, valid HTML
  * Javascript not _required_ for functioning
  * Navigable easily without having to take your hand off the keyboard  
- (Hint: If on Firefox, Quick find (`'` and `/`) is incredible!)
+ (Hint: If using Firefox, *Quick find* (`'` and `/`) is incredible!)
  * Supports configuring of allowed and disallowed filetypes
 
 
 ## Installation
 1. Save `izi.php` on your server. You can rename it if you want (for e.g., to  `index.php`).
 2. Create a directory where your files will be uploaded. Make sure it is publicly accessibly.  
-3. Configure the options at the top of `izi.php`.  
+3. Configure the options at the top of `izi.php`.  To generate the password hash, you can use [hashgen](https://github.com/aaviator42/hashgen).
 4. All done!  
 
 ### Recommended folder structure:
