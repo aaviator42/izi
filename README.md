@@ -4,6 +4,8 @@ Single-script file sharing system in PHP
 Current version: `4.7` | `2022-06-20`  
 License: `AGPLv3`
 
+See an online demo instance [here](https://aavi.xyz/proj/fakeizi/) (file upload and deletion disabled).
+
 ## About
 **izi** allows you to very easily set up an interface on your server to easily upload, share and manage files.
 
