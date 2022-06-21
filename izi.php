@@ -12,7 +12,7 @@ const IZI_PASSWORD_HASH = '$2y$10$o43k01OfwVJaYZ8/rKo4se09BWnlREHBc64rtA9ROLouy.
 const IZI_UPLOAD_DIR = "files/";
 
 //Public URL to this folder, include HTTP(S) and trailing slash
-const IZI_UPLOAD_DIR_URL = "https://example.com/izi/files/";
+const IZI_UPLOAD_DIR_URL = "https://example.com/izi/files/"; 
 
 //Impose file size limit?
 const IZI_FILE_SIZE_LIMIT = false;
