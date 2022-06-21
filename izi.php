@@ -55,11 +55,11 @@ if(isset($_GET["m"])){
 			//password submitted
 			if(password_verify($_POST["password"], IZI_PASSWORD_HASH)){
 				//password correct!
-				$_SESSION["active"] = true;
+				$_SESSION["izi_active"] = true;
 				redirect("uploadFiles");
 			} else {
 				//password incorrect!
-				$_SESSION["loginFail"] = true;
+				$_SESSION["izi_loginFail"] = true;
 			}
 		}
 		printHeader("Login");
@@ -227,8 +227,8 @@ function printConfig(){
 
 
 function printLoginForm(){
-	if(isset($_SESSION["loginFail"])){
-		unset($_SESSION["loginFail"]);
+	if(isset($_SESSION["izi_loginFail"])){
+		unset($_SESSION["izi_loginFail"]);
 		session_destroy();
 
 		echo <<<ENDEND
@@ -475,7 +475,7 @@ function iniSettings(){
 }
 
 function isLoggedIn(){
-	if(!isset($_SESSION["active"])){
+	if(!isset($_SESSION["izi_active"])){
 		return 0;
 	} else {
 		return 1;
