@@ -7,8 +7,15 @@ License: `AGPLv3`
 ## About
 **izi** allows you to very easily set up an interface on your server to easily upload, share and manage files.
 
+![interface - login](https://raw.githubusercontent.com/aaviator42/izi/main/screenshots/01_login.png)
 
-See screenshots of the interface [here](https://github.com/aaviator42/izi/tree/main/screenshots).
+![interface - upload](https://raw.githubusercontent.com/aaviator42/izi/main/screenshots/03_upload_b.png)
+
+![interface - my files](https://raw.githubusercontent.com/aaviator42/izi/main/screenshots/04_myfiles.png)
+
+
+
+See more screenshots of the interface [here](https://github.com/aaviator42/izi/tree/main/screenshots).
 
 ### Features
  * Allows you to upload and delete files
@@ -38,7 +45,7 @@ See screenshots of the interface [here](https://github.com/aaviator42/izi/tree/m
  
 ## Misc. Considerations
 1. You might want to enforce TLS through your server's configuration, because the setting in `izi.php` will only enforce it for the interface itself and won't (can't) enforce it for the files you share. 
-2. You also might want to leave an empty `index.html` file in the directory where your files are stored, or disable directory listing so that people and bots can't find all your files
+2. You also might want to leave an empty `index.html` file in the directory where your files are stored, or disable directory listing so that people and bots can't find all your files.
 
 
 ------
