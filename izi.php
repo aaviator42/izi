@@ -470,6 +470,7 @@ function iniSettings(){
 	ini_set( 'session.cookie_samesite', 	"strict");		// Strict samesite
 	ini_set( 'session.gc_maxlifetime', 		$cookieLifetime);	// Cookie lifetime
 	ini_set( 'session.cookie_lifetime', 	$cookieLifetime);	// Cookie lifetime
+	session_set_cookie_params($cookieLifetime);
 
 }
 
