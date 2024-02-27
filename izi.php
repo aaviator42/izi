@@ -1,6 +1,6 @@
 <?php
 /*
-izi - v4.7  |  2022-06-20
+izi - v4.8  |  2022-06-20
 by @aaviator42
 */
 
@@ -108,7 +108,7 @@ function printHeader($page){
 	echo <<<ENDEND
 	
 <!DOCTYPE html>
-<!-- izi v4.7 by @aaviator42 -->
+<!-- izi v4.8 by @aaviator42 -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
@@ -414,7 +414,8 @@ function processFileUpload(){
 		echo "No files uploaded.<br>";
 	} else {
 		foreach($_FILES['files']['name'] as $f => $name){
-			$newname = substr(preg_replace('/\s+/', '', pathinfo($name,  PATHINFO_FILENAME)), 0, 20);
+			//remove non-alphanumeric chars from filename and add random suffix
+			$newname = substr(preg_replace('/[^a-zA-Z0-9]+/', '', pathinfo($name, PATHINFO_FILENAME)), 0, 20);
 			$newname .= '-';
 			$newname .= substr(md5(rand(0, 999999)), 0, 5);
 			$newname .= '.';
