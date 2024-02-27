@@ -1,7 +1,7 @@
 # izi
 Single-script file sharing system in PHP 
 
-Current version: `4.7` | `2022-06-20`  
+Current version: `4.8` | `2024-02-26`  
 License: `AGPLv3`
 
 See an online demo instance [here](https://aavi.xyz/proj/fakeizi/) (file upload and deletion disabled).
