@@ -55,4 +55,4 @@ Works great on homelabs, shared hosting or VPSs! :P
 
 
 ------
-Documentation updated: `2022-06-20`
+Documentation updated: `2024-02-26`
